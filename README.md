@@ -31,7 +31,7 @@ neural-spike-simulation-bayes/
 │   ├── neural_spike_bayes.py          # Simulation + Bayesian decoding
 │
 ├── data/
-│   ├── EEG_Motor_Imagery_BCICIV_2a.csv  # Current dataset in use
+│   ├── README_DATA.md                 # Current dataset in use
 │
 ├── results/
 │   └── (to be added after experiment)
