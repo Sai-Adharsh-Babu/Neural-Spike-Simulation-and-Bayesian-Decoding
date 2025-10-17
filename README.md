@@ -46,7 +46,7 @@ Run the main simulation file:
 python src/neural_spike_bayes.py
 Output plots (raster plots, rate histograms, confusion matrices) will be generated in the results/ folder after experimental runs.
 
-##Expected Results
+## Expected Results
 - Simulated spiking neuron activity (raster plots)  
 - Firing rate histograms and ISI distributions  
 - Bayesian decoding accuracy visualization  
