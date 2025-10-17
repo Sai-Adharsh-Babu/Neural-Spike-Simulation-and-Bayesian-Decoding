@@ -17,10 +17,13 @@ The study aims to bridge theoretical neuroscience and computational modeling, co
 - Elephant – Spike train analysis  
 - Neo – Data management for electrophysiology  
 - NumPy, Matplotlib, SciPy  
-- Scikit-learn – Bayesian classifier implementation  
+- Scikit-learn – Bayesian classifier implementation
 
-To install dependencies:
-pip install brian2 elephant neo numpy matplotlib scikit-learn
+## Dataset
+The project uses the **EEG Motor Imagery Dataset (BCICIV_2a)** in `.csv` format.  
+Due to licensing, the dataset is **not included** here. You can request or download it from the official [BCI Competition IV Dataset 2a page](http://www.bbci.de/competition/iv/).
+
+# Repository Structure
 
 neural-spike-simulation-bayes/
 │
@@ -50,7 +53,10 @@ Output plots (raster plots, rate histograms, confusion matrices) will be generat
 - Code and dataset prepared  
 - Simulation and Bayesian decoding setup complete  
 - Experimental runs and result analysis pending  
-- Planned updates: performance testing, parameter tuning, and documentation of findings  
+- Planned updates: performance testing, parameter tuning, and documentation of findings
+
+## License  
+This project is licensed under the terms specified in the **[LICENSE](./LICENSE)** file.  
 
 ## Notes
 This project is currently ongoing as part of a neuroscience research portfolio.  
