@@ -1,0 +1,7 @@
+brian2
+numpy
+matplotlib
+scikit-learn
+elephant
+neo
+quantities
