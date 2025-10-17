@@ -23,8 +23,8 @@ The study aims to bridge theoretical neuroscience and computational modeling, co
 The project uses the **EEG Motor Imagery Dataset (BCICIV_2a)** in `.csv` format.  
 Due to licensing, the dataset is **not included** here. You can request or download it from the official [BCI Competition IV Dataset 2a page](http://www.bbci.de/competition/iv/).
 
-# Repository Structure
-
+## Repository Structure  
+```
 neural-spike-simulation-bayes/
 │
 ├── src/
@@ -39,12 +39,14 @@ neural-spike-simulation-bayes/
 ├── requirements.txt
 └── README.md
 
+```
+
 ## Usage
 Run the main simulation file:
 python src/neural_spike_bayes.py
 Output plots (raster plots, rate histograms, confusion matrices) will be generated in the results/ folder after experimental runs.
 
-## Expected Results
+##Expected Results
 - Simulated spiking neuron activity (raster plots)  
 - Firing rate histograms and ISI distributions  
 - Bayesian decoding accuracy visualization  
